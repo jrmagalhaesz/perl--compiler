@@ -4,4 +4,8 @@
 | $a              | scalar    | 0      | Não        | 8      | local    | variável  |
 | $b              | scalar    | 1      | Sim         | 8      | local    | variável  |
 |                 |           | 0      | Não        | 0      | local    | variável  |
+| $x              | scalar    | 3      | Sim         | 8      | local    | variável  |
+|                 |           | 0      | Não        | 0      | local    | variável  |
+| $i              | scalar    | 5      | Sim         | 8      | local    | variável  |
+|                 |           | 0      | Não        | 0      | local    | variável  |
 +-----------------+-----------+--------+-------------+--------+----------+------------+

@@ -16,5 +16,59 @@
 | 9               | OPERATOR        | =        |
 | 9               | NUMBER_INT      | 10       |
 | 9               | OPERATOR        | ;        |
-| 12              | IDENTIFIER      | prin     |
+| 12              | PRINT           | print    |
+| 12              | STRING          | "Hello World\n" |
+| 12              | OPERATOR        | ;        |
+| 15              | MY              | my       |
+| 15              | SCALAR          | $x       |
+| 15              | OPERATOR        | =        |
+| 15              | NUMBER_INT      | 10       |
+| 15              | OPERATOR        | ;        |
+| 18              | IF              | if       |
+| 18              | OPERATOR        | (        |
+| 18              | SCALAR          | $x       |
+| 18              | GT              | >        |
+| 18              | NUMBER_INT      | 5        |
+| 18              | OPERATOR        | )        |
+| 18              | OPERATOR        | {        |
+| 19              | PRINT           | print    |
+| 19              | STRING          | "x é maior que 5\n" |
+| 19              | OPERATOR        | ;        |
+| 20              | OPERATOR        | }        |
+| 23              | IF              | if       |
+| 23              | OPERATOR        | (        |
+| 23              | SCALAR          | $x       |
+| 23              | LT              | <        |
+| 23              | NUMBER_INT      | 20       |
+| 23              | OPERATOR        | )        |
+| 23              | OPERATOR        | {        |
+| 24              | PRINT           | print    |
+| 24              | STRING          | "x é menor que 20\n" |
+| 24              | OPERATOR        | ;        |
+| 25              | OPERATOR        | }        |
+| 25              | ELSE            | else     |
+| 25              | OPERATOR        | {        |
+| 26              | PRINT           | print    |
+| 26              | STRING          | "x é maior ou igual a 20\n" |
+| 26              | OPERATOR        | ;        |
+| 27              | OPERATOR        | }        |
+| 30              | FOR             | for      |
+| 30              | OPERATOR        | (        |
+| 30              | MY              | my       |
+| 30              | SCALAR          | $i       |
+| 30              | OPERATOR        | =        |
+| 30              | NUMBER_INT      | 0        |
+| 30              | OPERATOR        | ;        |
+| 30              | SCALAR          | $i       |
+| 30              | LT              | <        |
+| 30              | NUMBER_INT      | 5        |
+| 30              | OPERATOR        | ;        |
+| 30              | SCALAR          | $i       |
+| 30              | INC             | ++       |
+| 30              | OPERATOR        | )        |
+| 30              | OPERATOR        | {        |
+| 31              | PRINT           | print    |
+| 31              | STRING          | "Iteração do loop\n" |
+| 31              | OPERATOR        | ;        |
+| 32              | OPERATOR        | }        |
 +-----------------+-----------------+----------+

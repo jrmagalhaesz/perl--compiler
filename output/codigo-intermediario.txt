@@ -1,4 +1,30 @@
 		Código Intermediário Gerado
 +--------------------------------+
 | $b = 10                        |
+| PRINT "Hello World\n"          |
+| $x = 10                        |
+| compare 0 > 5                  |
+| PRINT "x é maior que 5\n"     |
+| if_start:                      |
+| scalar                         |
+| jump_if_false end_if           |
+| end_if:                        |
+| compare 0 < 20                 |
+| PRINT "x é menor que 20\n"    |
+| PRINT "x é maior ou igual a 20\n" |
+| if_start:                      |
+| scalar                         |
+| jump_if_false else             |
+| else:                          |
+| end_if:                        |
+| init $i = 0                    |
+| compare 0 < 5                  |
+| increment $i                   |
+| PRINT "Iteração do loop\n"   |
+| for_start:                     |
+| check_condition                |
+| jump_if_false end_for          |
+| update                         |
+| jump for_start                 |
+| end_for:                       |
 +--------------------------------+
